@@ -21,7 +21,7 @@ import top.jsen.gend.utils.StringUtils;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-public class IdServiceFactoryBean implements FactoryBean<IdFacade> {
+public class IdFacadeFactoryBean implements FactoryBean<IdFacade> {
 
     private IdFacade idFacade;
 
